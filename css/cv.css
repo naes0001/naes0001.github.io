@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background-image: url('img/imageentete.jpg');
+    background: linear-gradient(to-right, #2b2265, #50287f, #8f278f, #962383, #9e1f62, #d91c75, #e91f79);
     width: auto;
     height: 400px;
 }
