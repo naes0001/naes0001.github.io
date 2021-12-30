@@ -1,0 +1,70 @@
+body {
+    background-color: #CECECE;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+    font-size: 20px;
+}
+
+header {
+    background-image: url('imageentete.jpg');
+    width: auto;
+    height: 400px;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 116px;
+    font-size: 50px;
+    color: black;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+    color: black;
+}
+
+.mainprofil {
+    display: grid;
+    grid-row: 1;
+    grid-template-columns: 10% 40%;
+}
+
+.main2 {
+    display: grid;
+    grid-row: 1;
+    grid-template-columns: 28% 40%;
+}
+
+.article1,
+.article3 {
+    display: grid;
+    grid-column: 1;
+}
+
+.article2,
+.article4 {
+    display: grid;
+    grid-column: 2;
+}
+
+.imagemoi {
+    width: 90%;
+    margin-top: 20px;
+    border-radius: 5%;
+    margin-left: 13px;
+}
+
+fieldset {
+    padding-top: 0%;
+    padding-bottom: 25px;
+    width: 500px;
+}
+
+p {
+    font-size: 20px;
+}
+
+h3 {
+    margin-left: 13px;
+}
